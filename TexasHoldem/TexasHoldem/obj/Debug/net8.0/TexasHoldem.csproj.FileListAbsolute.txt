@@ -1,0 +1,15 @@
+C:\Users\chris.freckleton\source\repos\Katas\TexasHoldem\TexasHoldem\TexasHoldem\bin\Debug\net8.0\TexasHoldem.exe
+C:\Users\chris.freckleton\source\repos\Katas\TexasHoldem\TexasHoldem\TexasHoldem\bin\Debug\net8.0\TexasHoldem.deps.json
+C:\Users\chris.freckleton\source\repos\Katas\TexasHoldem\TexasHoldem\TexasHoldem\bin\Debug\net8.0\TexasHoldem.runtimeconfig.json
+C:\Users\chris.freckleton\source\repos\Katas\TexasHoldem\TexasHoldem\TexasHoldem\bin\Debug\net8.0\TexasHoldem.dll
+C:\Users\chris.freckleton\source\repos\Katas\TexasHoldem\TexasHoldem\TexasHoldem\bin\Debug\net8.0\TexasHoldem.pdb
+C:\Users\chris.freckleton\source\repos\Katas\TexasHoldem\TexasHoldem\TexasHoldem\obj\Debug\net8.0\TexasHoldem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chris.freckleton\source\repos\Katas\TexasHoldem\TexasHoldem\TexasHoldem\obj\Debug\net8.0\TexasHoldem.AssemblyInfoInputs.cache
+C:\Users\chris.freckleton\source\repos\Katas\TexasHoldem\TexasHoldem\TexasHoldem\obj\Debug\net8.0\TexasHoldem.AssemblyInfo.cs
+C:\Users\chris.freckleton\source\repos\Katas\TexasHoldem\TexasHoldem\TexasHoldem\obj\Debug\net8.0\TexasHoldem.csproj.CoreCompileInputs.cache
+C:\Users\chris.freckleton\source\repos\Katas\TexasHoldem\TexasHoldem\TexasHoldem\obj\Debug\net8.0\TexasHoldem.sourcelink.json
+C:\Users\chris.freckleton\source\repos\Katas\TexasHoldem\TexasHoldem\TexasHoldem\obj\Debug\net8.0\TexasHoldem.dll
+C:\Users\chris.freckleton\source\repos\Katas\TexasHoldem\TexasHoldem\TexasHoldem\obj\Debug\net8.0\refint\TexasHoldem.dll
+C:\Users\chris.freckleton\source\repos\Katas\TexasHoldem\TexasHoldem\TexasHoldem\obj\Debug\net8.0\TexasHoldem.pdb
+C:\Users\chris.freckleton\source\repos\Katas\TexasHoldem\TexasHoldem\TexasHoldem\obj\Debug\net8.0\TexasHoldem.genruntimeconfig.cache
+C:\Users\chris.freckleton\source\repos\Katas\TexasHoldem\TexasHoldem\TexasHoldem\obj\Debug\net8.0\ref\TexasHoldem.dll

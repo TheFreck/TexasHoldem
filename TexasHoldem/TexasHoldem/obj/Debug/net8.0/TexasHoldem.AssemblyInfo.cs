@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TexasHoldem")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f15f6316541e6f9234b1aa55cd1f5c293c154d1a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed5adf5ba9930201e103dc9a39f333945b0b0458")]
 [assembly: System.Reflection.AssemblyProductAttribute("TexasHoldem")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TexasHoldem")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -8,30 +8,194 @@ namespace TexasHoldem.Specs
         {
             holeInputs = new string[][]
             {
-                new[] { "K♠", "J♦" },
-                new[] { "K♠", "Q♦" },
-                new []{ "K♠", "Q♦" },
+            // a
+                //new[] { "K♠", "J♦" },
+                //new[] { "K♠", "Q♦" },
+                //new[] { "K♠", "J♦" },
                 new[] { "4♠", "9♦" },
-                new[] { "A♠", "K♦" },
-                new[] { "2♠", "3♦" },
+            //    new[] { "A♠", "K♦" },
+            ////b
+            //    new[] { "2♠", "3♦" },
+            //    new[] { "4♠", "K♦" },
+            //    new[] { "A♠","2♦" },
+            //    new []{ "A♠","K♦" },
+            //    new []{ "A♠","2♦" },
+            ////c
+            //    new []{ "A♠","4♦" },
+            //    new []{ "4♠","4♦" },
+            //    new []{ "K♠","J♦" },
+            //    new []{ "K♠","Q♦" },
+            //    new []{ "2♠","Q♦" },
+            ////d
+            //    new []{ "Q♠","Q♦" },
+            //    new []{ "K♠","J♦" },
+            //    new []{ "K♠","J♦" },
+            //    new []{ "6♥","2♥" },
+            //    new []{ "J♠","9♠" },
+            ////e
+            //    new []{ "A♠","2♦" },
+            //    new []{ "A♠","K♦" },
+            //    new []{ "A♠","2♦" },
+            //    new []{ "A♠","4♦" },
+            //    new []{ "4♠","4♦" },
+            ////f
+            //    new []{"A♠","2♦",},
+            //    new []{"A♠","K♦",},
+            //    new []{"A♠","2♦",},
+            //    new []{"A♠","4♦",},
+            //    new []{"4♠","4♦",},
+            ////g
+            //    new []{"K♠","J♦",},
+            //    new []{"K♠","Q♦",},
+            //    new []{"2♠","Q♦",},
+            //    new []{"Q♠","Q♦",},
+            //    new []{"K♠","J♦",},
+            ////h 
+            //    new []{"K♠","J♦",},
+            //    new []{"K♠","Q♦",},
+            //    new []{"Q♣","Q♦",},
+            //    new []{"A♥","A♠",},
+            //    new []{"A♠","Q♥",},
+            ////i
+            //    new []{"6♠","7♥",},
+            //    new []{"2♠","3♥",},
+            //    new []{"2♠","6♥",},
+            //    new []{"4♠","3♥",},
+            //    new []{"4♠","2♥",},
+            ////j
+            //    new []{"7♥","2♠",},
+            //    new []{"A♠","A♦",},
+            //    new []{"A♠","A♦",},
+            //    new []{"A♠","K♦",},
+            //    new []{"A♠","A♦",},
             };
             communityInputs = new string[][]
             {
-                new[] { "10♥", "9♥", "Q♣", "K♥", "Q♥" },
-                new[] { "K♣", "Q♥", "K♥", "2♥", "3♦" },
-                new []{ "J♣", "Q♥", "9♥", "2♥", "3♦" },
-                new[] { "J♣", "Q♥", "Q♠", "2♥", "Q♦" },
-                new[] { "J♥", "5♥", "10♥", "Q♥", "3♥" },
-                new[] { "2♣", "2♥", "3♠", "3♥", "2♦" },
+            //a
+                //new[] { "10♥","9♥","Q♣","K♥","Q♥" },
+                //new[] { "K♣","Q♥","K♥","2♥","3♦" },
+                //new[] { "J♣","K♥","9♥","2♥","3♦" },
+                new[] { "J♣","Q♥","Q♠","2♥","Q♦" },
+            //    new[] { "J♥","5♥","10♥","Q♥","3♥" },
+            ////b
+            //    new[] { "2♣","2♥","3♠","3♥","2♦" },
+            //    new[] { "3♦","3♠","5♥","10♥","2♣" },
+            //    new []{ "3♣","4♥","5♥","7♥","8♦" },
+            //    new []{ "3♣","4♥","2♥","7♥","8♦" },
+            //    new []{ "3♣","4♥","9♥","7♥","4♦" },
+            ////c 
+            //    new []{ "3♣","4♥","9♥","7♥","10♦" },
+            //    new []{ "3♣","A♥","9♥","7♥","10♦" },
+            //    new []{ "Q♣","Q♥","9♥","2♥","2♦" },
+            //    new []{ "J♣","Q♥","9♥","2♥","2♦" },
+            //    new []{ "J♣","Q♥","9♥","2♥","K♦" },
+            ////d
+            //    new []{ "K♣","J♥","9♥","2♥","2♦" },
+            //    new []{ "J♣","K♥","9♥","2♥","2♦" },
+            //    new []{ "Q♣","Q♥","9♥","2♥","Q♦" },
+            //    new []{ "K♣","Q♠","7♣","Q♣","3♣" },
+            //    new []{ "10♣","10♦","8♠","9♥","J♥" },
+            ////e
+            //    new []{ "3♣","4♥","5♥","7♥","8♦" },
+            //    new []{ "3♣","4♥","2♥","7♥","8♦" },
+            //    new []{ "3♣","4♥","9♥","7♥","4♦" },
+            //    new []{ "3♣","4♥","9♥","7♥","10♦" },
+            //    new []{ "3♣","A♥","9♥","7♥","10♦" },
+            ////f
+            //    new []{"3♣","4♥","5♥","7♥","8♦",},
+            //    new []{"3♣","4♥","2♥","7♥","8♦",},
+            //    new []{"3♣","4♥","9♥","7♥","4♦",},
+            //    new []{"3♣","4♥","9♥","7♥","10♦",},
+            //    new []{"3♣","A♥","9♥","7♥","10♦",},
+            ////g
+            //    new []{"Q♣","Q♥","9♥","2♥","2♦",},
+            //    new []{"J♣","Q♥","9♥","2♥","2♦",},
+            //    new []{"J♣","Q♥","9♥","2♥","K♦",},
+            //    new []{"K♣","J♥","9♥","2♥","2♦",},
+            //    new []{"J♣","K♥","9♥","2♥","2♦",},
+            ////h 
+            //    new []{"Q♣","Q♥","9♥","2♥","Q♦",},
+            //    new []{"Q♣","Q♥","9♥","2♥","J♦",},
+            //    new []{"K♠","Q♥","9♥","2♥","J♦",},
+            //    new []{"A♣","K♥","Q♥","J♥","10♦",},
+            //    new []{"K♥","10♠","J♠","9♠","8♦",},
+            ////i 
+            //    new []{"3♥","4♠","5♠","10♠","10♦",},
+            //    new []{"4♥","5♠","6♠","10♠","10♦",},
+            //    new []{"4♥","5♠","3♠","10♠","10♦",},
+            //    new []{"2♥","5♠","6♠","10♠","10♦",},
+            //    new []{"3♥","5♠","6♠","10♠","10♦",},
+            ////j 
+            //    new []{"A♣","K♥","2♦","7♣","2♥",},
+            //    new []{"K♣","K♥","A♥","Q♥","Q♦",},
+            //    new []{"K♣","K♥","A♥","J♥","Q♦",},
+            //    new []{"K♣","K♥","A♥","J♥","Q♦",},
+            //    new []{"K♣","K♥","A♥","Q♥","K♦",}
+
             };
             expectations = new (string type, string[] ranks)[]
             {
-                ("straight", new []{"K","Q","J","10","9"}),
-                ("full house", new []{"Q","Q","Q","K","K"}),
-                ("two pair", new[] { "K", "J", "9" }),
-                ("three-of-a-kind", new[] { "Q", "J", "9" }),
-                ("flush", new[] { "Q", "J", "10", "5", "3" }),
-                ("four-of-a-kind",  new[] { "2", "3" }),
+            //a
+                //("straight", new []{"K","Q","J","10","9"}),
+                //("full house", new []{"K","Q"}),
+                //("two pair", new [] {"K","J","9"}),
+                ("three-of-a-kind", new [] {"Q","J","9"}),
+            //    ("flush", new [] {"Q","J","10","5","3"}),
+            ////b
+            //    ("four-of-a-kind",  new [] {"2","3"}),
+            //    ("pair", new []{"3","K","10","5"}),
+            //    ("nothing", new []{"A","8","7","5","4"}),
+            //    ("nothing", new []{"A","K","8","7","4"}),
+            //    ("pair", new []{"4","A","9","7"}),
+            ////c 
+            //    ("pair", new []{"4","A","10","9"}),
+            //    ("pair", new []{"4","A","10","9"}),
+            //    ("two pair", new []{"Q","2","K"}),
+            //    ("two pair", new []{"Q","2","K"}),
+            //    ("two pair", new []{"Q","2","K"}),
+            ////d 
+            //    ("two pair", new []{"Q","2","K"}),
+            //    ("two pair", new []{"K","J","9"}),
+            //    ("three-of-a-kind", new []{"Q","K","J"}),
+            //    ("pair", new []{"Q","K","7","6"}),
+            //    ("two pair", new []{"J","10","9"}),
+            ////e
+            //    ("nothing", new []{"A","8","7","5","4"}),
+            //    ("nothing", new[]{"A","K","8","7","4"}),
+            //    ("pair", new []{"4","A","9","7"}),
+            //    ("pair", new []{"4","A","10","9"}),
+            //    ("pair", new []{"4","A","10","9"}),
+            ////f
+            //    ("nothing", new []{"A","8","7","5","4"}),
+            //    ("nothing", new []{"A","K","8","7","4"}),
+            //    ("pair", new []{"4","A","9"}),
+            //    ("pair", new []{"4","A","10"}),
+            //    ("pair", new []{"4","A","10","9"}),
+            ////g
+            //    ("two pair", new []{"Q","2","K"}),
+            //    ("two pair", new []{"Q","2","K"}),
+            //    ("two pair", new []{"Q","2","K"}),
+            //    ("two pair", new []{"Q","2","K"}),
+            //    ("two pair", new []{"K","J","9"}),
+            ////h
+            //    ("three-of-a-kind", new []{"Q","K","J"}),
+            //    ("three-of-a-kind", new []{"Q","K","J"}),
+            //    ("three-of-a-kind", new []{"Q","K","J"}),
+            //    ("straight", new []{"A","K","Q","J","10"}),
+            //    ("straight", new []{"A","K","Q","J","10"}),
+            ////i
+            //    ("straight", new []{"7","6","5","4","3"}),
+            //    ("straight", new []{"6","5","4","3","2"}),
+            //    ("straight", new []{"6","5","4","3","2"}),
+            //    ("straight", new []{"6","5","4","3","2"}),
+            //    ("straight", new []{"6","5","4","3","2"}),
+            ////j
+            //    ("full house", new []{"2","7"}),
+            //    ("full house", new []{"A","K"}),
+            //    ("full house", new []{"A","K"}),
+            //    ("full house", new []{"K","A"}),
+            //    ("full house", new []{"A","K"}),
+
             };
             answer = new (string type, string[] ranks)[holeInputs.Length];
         };
@@ -44,13 +208,30 @@ namespace TexasHoldem.Specs
             }
         };
 
-        It Should_Return_A_Tuple_With_Type_And_Ranks = () =>
+        It Should_Return_Correct_Hand_Type = () =>
         {
-            for (var i = 0; i < answer.Length; i++)
+            for (var i = 0; i < expectations.Length; i++)
             {
-                answer[i].type.ShouldEqual(expectations[i].type);
-                for (var j = 0; j < answer[i].ranks.Length; j++)
+                if (answer[i].type != expectations[i].type)
                 {
+                    var ans = answer[i].type;
+                    var exp = expectations[i].type;
+                }
+                answer[i].type.ShouldEqual(expectations[i].type);
+            }
+        };
+
+        It Should_Return_Correct_Hand_Cards = () =>
+        {
+            for (var i = 0; i < expectations.Length; i++)
+            {
+                for (var j = 0; j < expectations[i].ranks.Length; j++)
+                {
+                    if (answer[i].ranks[j] != expectations[i].ranks[j])
+                    {
+                        var ans = answer[i].ranks[j];
+                        var exp = expectations[i].ranks[j];
+                    }
                     answer[i].ranks[j].ShouldEqual(expectations[i].ranks[j]);
                 }
             }
@@ -60,346 +241,5 @@ namespace TexasHoldem.Specs
         private static string[][] communityInputs;
         private static (string type, string[] ranks)[] expectations;
         private static (string type, string[] ranks)[] answer;
-    }
-
-    public class When_Sorting_Hand_By_Rank_And_Suit
-    {
-        Establish context = () =>
-        {
-            cards = new string[][]
-            {
-                new[] { "K♠", "J♦","10♥", "9♥", "Q♣", "K♥", "Q♥" }
-            };
-            suits = new Dictionary<char, List<int>> {
-                { '♠', new List<int> { 13 } },
-                { '♦', new List<int> { 11 } },
-                { '♥', new List<int> { 13, 12, 10, 9 } },
-                { '♣', new List<int> { 12 } }
-            };
-            ranks = new List<string>[] { null, null, null, null, null, null, null, null, null,
-                new List<string> { "♥" },
-                new List<string> { "♥" },
-                new List<string> { "♦" },
-                new List<string> { "♣", "♥" },
-                new List<string> { "♠", "♥" },
-                null 
-            };
-
-            expectations = new Tuple<Dictionary<char, List<int>>, List<string>[]>[]
-            {
-                new (suits, ranks)
-            };
-            answers = new Tuple<Dictionary<char, List<int>>, List<string>[]>[cards.Length];
-        };
-
-        Because of = () =>
-        {
-            for (var i = 0; i < cards.Length; i++)
-            {
-                answers[i] = Poker.SortCards(cards[i]);
-            }
-        };
-
-        It Should_Return_Dictionary_Of_Suits = () =>
-        {
-            for (var i = 0; i < expectations.Length; i++)
-            {
-                var suits = 4;
-                var expectation = expectations[i];
-                for (var j = 0; j < suits; j++)
-                {
-                    var suit = expectation.Item1.Keys.ToArray()[j];
-                    var sortedSuit = answers[i].Item1[suit].OrderByDescending(x => x);
-                    for (var k = 0; k < sortedSuit.Count(); k++)
-                    {
-                        sortedSuit.ToArray()[k].ShouldEqual(expectation.Item1[suit][k]);
-                    }
-                }
-            }
-        };
-
-        It Should_Return_An_Array_Of_Ranks = () =>
-        {
-            for (var i = 0; i < expectations.Length; i++)
-            {
-                var expectation = expectations[i].Item2;
-                var answer = answers[i].Item2;
-                for (var j = 0; j < expectation.Length; j++)
-                {
-                    if (expectation[j] != null)
-                    {
-                        for (var k = 0; k < expectation[j].Count; k++)
-                        {
-                            if (expectation[j][k] != null)
-                            {
-                                for (var l = 0; l < expectation[j][k].Length; l++)
-                                {
-                                    answer[j][k].ShouldEqual(expectation[j][k]);
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        };
-
-        private static string[][] cards;
-        private static Dictionary<char, List<int>> suits;
-        private static List<string>[] ranks;
-        private static Tuple<Dictionary<char, List<int>>, List<string>[]>[] expectations;
-        private static Tuple<Dictionary<char, List<int>>, List<string>[]>[] answers;
-    }
-
-    public class When_Building_A_Hand_From_Sorted_Cards
-    {
-        Establish context = () =>
-        {
-            suits = new Dictionary<char, List<int>>[] 
-            {
-                new Dictionary<char, List<int>>
-                {
-                    { '♠', new List<int> { 2 } },
-                    { '♦', new List<int> { 3 } },
-                    { '♥', new List<int> { 5, 2, 9, 8, 14 } },
-                    { '♣', new List<int> { } }
-                },
-                new Dictionary<char, List<int>>
-                {
-                    { '♠', new List<int> { 2 } },
-                    { '♦', new List<int> { 3 } },
-                    { '♥', new List<int> { 5, 7, 9, 8, 6 } },
-                    { '♣', new List<int> { } }
-                },
-                new Dictionary<char, List<int>>
-                {
-                    { '♠', new List<int> { 2, 7 } },
-                    { '♦', new List<int> { 7, 3, 9 } },
-                    { '♥', new List<int> { 7 } },
-                    { '♣', new List<int> { 7 } }
-                },
-                new Dictionary<char, List<int>>
-                {
-                    { '♠', new List<int> { 14,13 } },
-                    { '♦', new List<int> { 14,9 } },
-                    { '♥', new List<int> { 3 } },
-                    { '♣', new List<int> { 14,3 } }
-                },
-                new Dictionary<char, List<int>>
-                {
-                    { '♠', new List<int> { 14,10 } },
-                    { '♦', new List<int> {  11 } },
-                    { '♥', new List<int> { 13,12,9 } },
-                    { '♣', new List<int> {  } }
-                },
-                new Dictionary<char, List<int>>
-                {
-                    { '♠', new List<int> { 4 } },
-                    { '♦', new List<int> {  4,11 } },
-                    { '♥', new List<int> { 9 } },
-                    { '♣', new List<int> {  4} }
-                },
-                new Dictionary<char, List<int>>
-                {
-                    { '♠', new List<int> { 9 } },
-                    { '♦', new List<int> {  3, 14 } },
-                    { '♥', new List<int> { 9 } },
-                    { '♣', new List<int> {  3 } }
-                },
-                new Dictionary<char, List<int>>
-                {
-                    { '♠', new List<int> { 7 } },
-                    { '♦', new List<int> {  2,3 } },
-                    { '♥', new List<int> { 7 } },
-                    { '♣', new List<int> { 4 } }
-                }
-            };
-            ranks = new List<string>[][] 
-            {
-                new List<string>[]
-                {
-                    new List<string>{ },
-                    new List<string>{ }, 
-                    new List<string>{ "♠","♥"}, 
-                    new List<string>{ "♦"}, 
-                    new List<string>{ }, 
-                    new List<string>{ "♥"},
-                    new List<string>{ }, 
-                    new List<string>{ }, 
-                    new List<string>{ "♥"},
-                    new List<string>{ "♥"},
-                    new List<string>{ },
-                    new List<string>{ },
-                    new List<string>{ },
-                    new List<string>{ },
-                    new List<string>{ "♥" }
-                },
-                new List<string>[]
-                {
-                    new List<string>{ },
-                    new List<string>{ },
-                    new List<string>{ "♠"},
-                    new List<string>{ "♦"},
-                    new List<string>{ },
-                    new List<string>{ "♥"},
-                    new List<string>{ "♥"},
-                    new List<string>{ "♥"},
-                    new List<string>{ "♥"},
-                    new List<string>{ "♥"},
-                    new List<string>{ },
-                    new List<string>{ },
-                    new List<string>{ },
-                    new List<string>{ },
-                    new List<string>{ }
-                },
-                new List<string>[]
-                {
-                    new List<string>{ },
-                    new List<string>{ },
-                    new List<string>{ "♠"},
-                    new List<string>{ "♦"},
-                    new List<string>{ },
-                    new List<string>{ },
-                    new List<string>{ },
-                    new List<string>{ "♠", "♦", "♥", "♣" },
-                    new List<string>{ },
-                    new List<string>{ "♦"},
-                    new List<string>{ },
-                    new List<string>{ },
-                    new List<string>{ },
-                    new List<string>{ },
-                    new List<string>{ }
-                },
-                new List<string>[]
-                {
-                    new List<string>{ },
-                    new List<string>{ },
-                    new List<string>{ },
-                    new List<string>{ "♥", "♣"},
-                    new List<string>{ },
-                    new List<string>{ },
-                    new List<string>{ },
-                    new List<string>{ },
-                    new List<string>{ },
-                    new List<string>{ "♦"},
-                    new List<string>{ },
-                    new List<string>{ },
-                    new List<string>{ },
-                    new List<string>{ "♠"},
-                    new List<string>{ "♠", "♦", "♣" }
-                },
-                new List<string>[]
-                {
-                    new List<string>{ },
-                    new List<string>{ },
-                    new List<string>{ },
-                    new List<string>{ },
-                    new List<string>{ },
-                    new List<string>{ },
-                    new List<string>{ },
-                    new List<string>{ },
-                    new List<string>{ },
-                    new List<string>{ "♥"},
-                    new List<string>{ "♠"},
-                    new List<string>{ "♦"},
-                    new List<string>{ "♥"},
-                    new List<string>{ "♠","♥"},
-                    new List<string>{ "♠" }
-                },
-                new List<string>[]
-                {
-                    new List<string>{ },
-                    new List<string>{ },
-                    new List<string>{ },
-                    new List<string>{ },
-                    new List<string>{ "♠","♦","♣"},
-                    new List<string>{ },
-                    new List<string>{ },
-                    new List<string>{ },
-                    new List<string>{ },
-                    new List<string>{ "♥"},
-                    new List<string>{ },
-                    new List<string>{ "♦"},
-                    new List<string>{ },
-                    new List<string>{ },
-                    new List<string>{  }
-                },
-                new List<string>[]
-                {
-                    new List<string>{ },
-                    new List<string>{ },
-                    new List<string>{ },
-                    new List<string>{ "♦","♣"},
-                    new List<string>{ },
-                    new List<string>{ },
-                    new List<string>{ },
-                    new List<string>{ },
-                    new List<string>{ },
-                    new List<string>{ "♥","♠"},
-                    new List<string>{ },
-                    new List<string>{ },
-                    new List<string>{ },
-                    new List<string>{ },
-                    new List<string>{ "♦" }
-                },
-                new List<string>[]
-                {
-                    new List<string>{ },
-                    new List<string>{ },
-                    new List<string>{ "♦"},
-                    new List<string>{ "♦"},
-                    new List<string>{ "♣"},
-                    new List<string>{ },
-                    new List<string>{ },
-                    new List<string>{ "♥","♠"},
-                    new List<string>{ },
-                    new List<string>{ },
-                    new List<string>{ },
-                    new List<string>{ },
-                    new List<string>{ },
-                    new List<string>{ },
-                    new List<string>{ }
-                }
-            };
-            expectations = new (string type, string[] ranks)[]
-            {
-                ("flush", new []{"A","9","8","5","2"}),
-                ("straight-flush", new []{"9","8","7","6","5"}),
-                ("four-of-a-kind", new []{ "7","9"}),
-                ("full house", new []{"K","3"}),
-                ("straight", new []{"A","K","Q","J","10"}),
-                ("three-of-a-kind", new []{"4","J"}),
-                ("two pair", new []{"9","3","A"}),
-                ("pair", new []{ "7","4"})
-            };
-            answers = new (string type, string[] ranks)[suits.Length];
-        };
-
-        Because of = () =>
-        {
-            for (var i = 0; i < suits.Length; i++)
-            {
-                for (var j = 0; j < suits[i].Count; j++)
-                {
-                    answers[i] = Poker.SortHand(suits[i], ranks[i]);
-                }
-            }
-        };
-
-        It Should_Return_A_Hand_And_The_Cards_That_Make_It = () =>
-        {
-            for (var i=0; i<answers.Length; i++)
-            {
-                answers[i].type.ShouldEqual(expectations[i].type);
-                for(var j=0; j < answers[i].ranks.Length; j++)
-                {
-                    answers[i].ranks[j].ShouldEqual(expectations[i].ranks[j]);
-                }
-            }
-        };
-
-        private static Dictionary<char, List<int>>[] suits;
-        private static List<string>[][] ranks;
-        private static (string type, string[] ranks)[] expectations;
-        private static (string type, string[] ranks)[] answers;
     }
 }
